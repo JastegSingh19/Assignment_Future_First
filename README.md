@@ -104,11 +104,28 @@ Ensure the following files are present:
 ### 3. Execute the Notebook
 Run:
 ```
-FutureFirstAssignment (1).ipynb
+FutureFirst_Assignment.ipynb
 ```
 
 ---
+## 📉 Visualizations
 
+### 1. Walk-Forward Error Distribution (Residuals)
+
+This histogram shows the distribution of prediction errors (Actual − Predicted).  
+The red dashed line indicates zero error, demonstrating low bias in the model.
+
+![Error Distribution](images/error_distribution.png)
+
+---
+
+### 2. Actual vs Predicted Price (Walk-Forward – Last Fold)
+
+This plot compares the actual stock price with walk-forward predictions on the final test window.
+
+![Actual vs Predicted](images/walk_forward_actual_vs_predicted.png)
+
+---
 ## 🧠 Conclusion
 
 Static evaluation methods are inadequate for financial forecasting due to **temporal dependency and regime shifts**. By adopting **Walk-Forward Validation**, this project achieves a realistic **average RMSE of 32.43**, demonstrating a production-ready approach to time-series machine learning.
