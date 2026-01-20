@@ -1,6 +1,14 @@
 # Stock Price Prediction using Walk-Forward Validation & Feature Engineering
+## 🎥 Project Overview Video (5 Minutes)
 
-## 📌 Project Overview
+👉 **Watch the full project walkthrough here:**  
+https://youtu.be/G9RdTj06Xnk
+
+This video explains:
+- Problem statement and motivation  
+- Feature engineering strategy  
+- Walk-forward validation methodology  
+- Key results and insights  
 
 This project focuses on **next-day stock price prediction** using historical price data combined with an external signal (`Data`). The primary goal is not just prediction accuracy, but **realistic evaluation** of machine learning models on **non-stationary financial time series**.
 
